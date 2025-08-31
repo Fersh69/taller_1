@@ -4,41 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Informacion del estudiante</h1>
-    <img src="c:\Users\maria\Downloads\fer.jpg" alt="imagen del estudiante">
-    <br>
-    <p><b>Nombre:</b>Fernando Barbosa</p>
-    <p><b>Semestre: </b>Semestre 4</p>
-    <p><b>Hobbies: </b></p>
-    <ul>
-        <li>Programar</li>
-        <li>Jugar call of duty</li>
-        <li>viajar a otras ciduades</li>
+    <h1>Información del estudiante</h1>
+    <div class="profile">
+        <img src="fer.jpg" alt="imagen del estudiante" class="profile-img">
+        <p><b>Nombre:</b> Fernando Barbosa</p>
+        <p><b>Semestre:</b> 4</p>
+        <p><b>Hobbies:</b></p>
+        <ul>
+            <li>Programar</li>
+            <li>Jugar Call of Duty</li>
+            <li>Viajar a otras ciudades</li>
+        </ul>
+    </div>
+
+    <h2>Series favoritas</h2>
+    <ul class="series-list">
+        <li data-img="https://imgs.search.brave.com/DOaVyNv8gaXTjwTpvOJxLTEwYKL839XHpqLxf9yR2eE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXQuY29t/L3cvZnVsbC8xLzEv/Zi8yMjg5MC0zODQw/eDIxNjAtZGVza3Rv/cC00ay1icmVha2lu/Zy1iYWQtd2FsbHBh/cGVyLXBob3RvLmpw/Zw">Breaking Bad</li>
+        <li data-img="https://imgs.search.brave.com/H4BaLMUrWKNDVXXGnzgs5ka_YetGIe5sHQEuID3qEZ8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mci53/ZWIuaW1nNi5hY3N0/YS5uZXQvY18zMTBf/NDIwL3BpY3R1cmVz/LzI0LzAxLzAzLzEx/LzA4LzUxMzUzNDUu/anBn">Halo</li>
+        <li data-img="https://imgs.search.brave.com/pQ4wqj7fP05St_ZgVj2qaa4ijzqTIiuWHS7__105RrQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/OS85NC9OYXJ1dG9D/b3ZlclRhbmtvYm9u/MS5qcGcvNTEycHgt/TmFydXRvQ292ZXJU/YW5rb2JvbjEuanBn">Naruto</li>
+        <li data-img="https://imgs.search.brave.com/S8fVZycTXvgXFI0JdQwvnPbDeyb2twDRW3iqZms_Prc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlptTXdNRGxr/TlRFdE1tUXpaUzAw/T0RRMExXSmxabUl0/T1Rnd1lXTXdaR000/TXpGaVhrRXlYa0Zx/Y0djQC5qcGc">Bojack Horseman</li>
+        <li data-img="https://imgs.search.brave.com/T6mXE9lfg1MiqMlizo-z6qh5RKBaexUVIcvme0pCdWM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YXByb3h5LnR2dHJv/cGVzLm9yZy93aWR0/aC8xMjAwL2h0dHBz/Oi8vc3RhdGljLnR2/dHJvcGVzLm9yZy9w/bXdpa2kvcHViL2lt/YWdlcy9zdWl0c19w/b3N0ZXIuanBn">La ley de los audaces</li>
+        <li data-img="https://imgs.search.brave.com/7FxBmm9O-Mg6G4ro4vToQAQy5g_9MTUbn0lw7cHlVyM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk4yVTJZelUx/WmpZdFpqQXlaUzAw/TWpoaExUbGlNemN0/TW1Sak1qSTJNamRq/TnpFeVhrRXlYa0Zx/Y0djQC5qcGc">Rick y Morty</li>
+        <li data-img="https://imgs.search.brave.com/xcrElhz7ajjZFcnqhWJF2vI56sYcSuIwVwBcs_l2-Rs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QllXUXdNR1Jo/TkdFdFpUTmhNeTAw/TXpWakxXSmhNakl0/WWpjd01EbGpNVGt5/TlRnMlhrRXlYa0Zx/Y0djQC5qcGc">The Walking Dead</li>
+        <li data-img="https://imgs.search.brave.com/pdfRwiy8zBZM91jxu4Br0e3kTszNvmL-QNhKjvnZ_hA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YXByb3h5LnR2dHJv/cGVzLm9yZy93aWR0/aC8xMjAwL2h0dHBz/Oi8vc3RhdGljLnR2/dHJvcGVzLm9yZy9w/bXdpa2kvcHViL2lt/YWdlcy9zdHJhbmdl/cl90aGluZ3NfNTMu/cG5n">Stranger Things</li>
+        <li data-img="https://imgs.search.brave.com/P5E_cu830WnbYDHiWCvzpVLaktyEluFXH8vCOZFuDRc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/ZC9kYS9EYXJrTmV0/ZmxpeFBvc3RlckVu/Z2xpc2guanBnLzUx/MnB4LURhcmtOZXRm/bGl4UG9zdGVyRW5n/bGlzaC5qcGc">Dark</li>
+        <li data-img="https://imgs.search.brave.com/ZvTuvwZWOZ_7wAp2Dd9EgLhZf14IMRCfU0BHh8wSUG8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YXByb3h5LnR2dHJv/cGVzLm9yZy93aWR0/aC8xMjAwL2h0dHBz/Oi8vc3RhdGljLnR2/dHJvcGVzLm9yZy9w/bXdpa2kvcHViL2lt/YWdlcy9wZWFreV9i/bGluZGVycy5wbmc">Peaky Blinders</li>
     </ul>
-    <p><b>Series favoritas: </b></p>
-    <ol>
-        <li>breaking bad</li>
-        <img src="https://imgs.search.brave.com/DOaVyNv8gaXTjwTpvOJxLTEwYKL839XHpqLxf9yR2eE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXQuY29t/L3cvZnVsbC8xLzEv/Zi8yMjg5MC0zODQw/eDIxNjAtZGVza3Rv/cC00ay1icmVha2lu/Zy1iYWQtd2FsbHBh/cGVyLXBob3RvLmpw/Zw" alt="imagen de breaking bad">
-        <li>Halo</li>
-        <img src="https://imgs.search.brave.com/H4BaLMUrWKNDVXXGnzgs5ka_YetGIe5sHQEuID3qEZ8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mci53/ZWIuaW1nNi5hY3N0/YS5uZXQvY18zMTBf/NDIwL3BpY3R1cmVz/LzI0LzAxLzAzLzEx/LzA4LzUxMzUzNDUu/anBn" alt="imagen de halo la serie">
-        <li>Naruto</li>
-        <img src="https://imgs.search.brave.com/pQ4wqj7fP05St_ZgVj2qaa4ijzqTIiuWHS7__105RrQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/OS85NC9OYXJ1dG9D/b3ZlclRhbmtvYm9u/MS5qcGcvNTEycHgt/TmFydXRvQ292ZXJU/YW5rb2JvbjEuanBn" alt="imagen de la serie naruto">
-        <li>bojack horseman</li>
-        <img src="https://imgs.search.brave.com/S8fVZycTXvgXFI0JdQwvnPbDeyb2twDRW3iqZms_Prc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlptTXdNRGxr/TlRFdE1tUXpaUzAw/T0RRMExXSmxabUl0/T1Rnd1lXTXdaR000/TXpGaVhrRXlYa0Zx/Y0djQC5qcGc" alt="imagen de la serie bojack horseman">
-        <li>la ley de los audaces</li>
-        <img src="https://imgs.search.brave.com/T6mXE9lfg1MiqMlizo-z6qh5RKBaexUVIcvme0pCdWM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YXByb3h5LnR2dHJv/cGVzLm9yZy93aWR0/aC8xMjAwL2h0dHBz/Oi8vc3RhdGljLnR2/dHJvcGVzLm9yZy9w/bXdpa2kvcHViL2lt/YWdlcy9zdWl0c19w/b3N0ZXIuanBn" alt="imagen de la serie Ley de los audaces">
-        <li>Rick Y Morty</li>
-        <img src="https://imgs.search.brave.com/7FxBmm9O-Mg6G4ro4vToQAQy5g_9MTUbn0lw7cHlVyM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk4yVTJZelUx/WmpZdFpqQXlaUzAw/TWpoaExUbGlNemN0/TW1Sak1qSTJNamRq/TnpFeVhrRXlYa0Zx/Y0djQC5qcGc" alt="imagen de la serie rick y morty">
-        <li>the walking dead</li>
-        <img src="https://imgs.search.brave.com/xcrElhz7ajjZFcnqhWJF2vI56sYcSuIwVwBcs_l2-Rs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QllXUXdNR1Jo/TkdFdFpUTmhNeTAw/TXpWakxXSmhNakl0/WWpjd01EbGpNVGt5/TlRnMlhrRXlYa0Zx/Y0djQC5qcGc" alt="imagen de la serie the walking dead">
-        <li>stranger things</li>
-        <img src="https://imgs.search.brave.com/pdfRwiy8zBZM91jxu4Br0e3kTszNvmL-QNhKjvnZ_hA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YXByb3h5LnR2dHJv/cGVzLm9yZy93aWR0/aC8xMjAwL2h0dHBz/Oi8vc3RhdGljLnR2/dHJvcGVzLm9yZy9w/bXdpa2kvcHViL2lt/YWdlcy9zdHJhbmdl/cl90aGluZ3NfNTMu/cG5n" alt="imagen de la serie stranger things">
-        <li>Dark</li>
-        <img src="https://imgs.search.brave.com/P5E_cu830WnbYDHiWCvzpVLaktyEluFXH8vCOZFuDRc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/ZC9kYS9EYXJrTmV0/ZmxpeFBvc3RlckVu/Z2xpc2guanBnLzUx/MnB4LURhcmtOZXRm/bGl4UG9zdGVyRW5n/bGlzaC5qcGc" alt="imagen de la serie Dark">
-        <li>peaky blinders</li>
-        <img src="https://imgs.search.brave.com/ZvTuvwZWOZ_7wAp2Dd9EgLhZf14IMRCfU0BHh8wSUG8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YXByb3h5LnR2dHJv/cGVzLm9yZy93aWR0/aC8xMjAwL2h0dHBz/Oi8vc3RhdGljLnR2/dHJvcGVzLm9yZy9w/bXdpa2kvcHViL2lt/YWdlcy9wZWFreV9i/bGluZGVycy5wbmc" alt="imagen de la serie peaky blinders">
-    </ol>
+
+    <div class="viewer">
+        <img id="serieImage" src="" alt="Imagen de la serie">
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
